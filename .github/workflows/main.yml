@@ -3,6 +3,10 @@ name: Trigger Both Bots
 on:
   workflow_dispatch:
 
+permissions:
+  actions: write
+  contents: read
+
 jobs:
   trigger_bot:
     runs-on: ubuntu-latest
