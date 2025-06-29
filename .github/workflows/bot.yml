@@ -22,7 +22,7 @@ jobs:
     name: Run Ayaangamerzbot
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Python Dependency Installation
         uses: py-actions/py-dependency-install@v4.0.0
       - name: Injection For my Repo
@@ -36,7 +36,7 @@ jobs:
     name: Run Bullet_Bot_0896
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Python Dependency Installation
         uses: py-actions/py-dependency-install@v4.0.0
       - name: Injection For my Repo
